@@ -3,3 +3,7 @@ jdk:
   - openjdk11
 before_install:
   - mvn clean install
+#deploy:
+#  provider: heroku
+#  app: reatail-be
+#  on: main
